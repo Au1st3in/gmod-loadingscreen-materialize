@@ -71,7 +71,7 @@
       <?php if($steamid64 == '76561198026915793') { ?>
         <canvas height='1' id='confetti' width='1'></canvas>
       <?php } ?>
-      <div class="section">
+      <div class="section"><br><br><br><br>
         <div class="row">
           <div class="col s6">
             <div class="card-panel hoverable <?php echo $materialize_card_color; ?> waves-effect waves-block waves-<?php echo $materialize_waves_color; ?> bigEntrance">
