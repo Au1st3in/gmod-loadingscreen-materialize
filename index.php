@@ -115,7 +115,7 @@
                   <label for="icon_prefix" class="<?php echo $materialize_text_color; ?>-text">Now Playing:&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $play_name; ?></label>
                 </div>
         			<?php } else { ?>
-          			<div style="position:relative;width:267px;height:0px;overflow:hidden;">
+                <div style="position:relative;width:267px;height:0px;overflow:hidden;">
           				<div style="position:absolute;bottom:-500px;left:-50px">
           					<iframe width="300" height="300" src="https://www.youtube.com/embed/<?php echo $youtube_id; ?>?rel=0&autoplay=1"></iframe>
           				</div>
