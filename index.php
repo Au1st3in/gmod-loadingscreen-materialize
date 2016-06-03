@@ -112,7 +112,7 @@
                 <div class="input-field col s12 bigEntrance">
                   <i class="material-icons prefix">library_music</i>
                   <input id="icon_prefix" type="text" disabled>
-                  <label for="icon_prefix" class="<?php echo $materialize_text_color; ?>-text">Now Playing:&nbsp;<?php echo $play_name; ?></label>
+                  <label for="icon_prefix" class="<?php echo $materialize_text_color; ?>-text">Now Playing:&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $play_name; ?></label>
                 </div>
         			<?php } else { ?>
           			<div style="position:relative;width:267px;height:0px;overflow:hidden;">

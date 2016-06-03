@@ -11,7 +11,7 @@
 	$serverIP = $_SERVER["REMOTE_ADDR"];
 	$serverPort = "27015";
 
-	$default_steam64 = '76561198026915793'; // Default Steam64 ID if you're viewing in browser
+	$default_steam64 = '76561197960279927'; // Default Steam64 ID if you're viewing in browser
 	$default_map = 'gm_flatgrass'; // Default map if you're viewing in browser
 	$SteamAPIKey = ''; // SteamAPI Key (http://steamcommunity.com/dev/apikey)
 	$SteamWorkshopid = ''; // Steam Workshop Content ID (http://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXX)
