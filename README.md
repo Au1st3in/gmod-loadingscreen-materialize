@@ -1,7 +1,7 @@
 Garry's Mod Material Design Loading Screen
 ==================
 
-<p align="center">
+<p align="center"><br>
   <img src="https://github.com/Au1st3in/gmod-loadingscreen-materialize/blob/master/img/gmod-loadingscreen-materialize.png?raw=true" width=“100%” height=“100%”/>
 </p>
 Materialize themed PHP based loading screen for Garry's Mod with Steam Web API support.
