@@ -58,5 +58,5 @@
 		};
 
 		$('#info').css({marginTop: '-=80px'});
-		$('.mi-valign').css({marginTop: '+=20px'});
+		$('.mi-valign').css({marginTop: '+=10px'});
 </script>

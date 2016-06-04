@@ -123,7 +123,7 @@
             <?php } ?>
             <div class="card-panel hoverable <?php echo $materialize_card_color; ?> waves-effect waves-block waves-<?php echo $materialize_waves_color; ?> bigEntrance">
               <div class="valign-wrapper">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn-floating btn-large waves-effect waves-<?php echo $materialize_waves_color; ?> teal darken-4 tooltipped bigEntrance" data-position="bottom" data-delay="50" data-tooltip="Workshop Content" href="http://steamcommunity.com/sharedfiles/filedetails/?id=<?php echo $SteamWorkshopid; ?>"><i class="material-icons">library_add</i>Workshop Content</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn-floating btn-large waves-effect waves-<?php echo $materialize_waves_color; ?> teal darken-4 tooltipped bigEntrance" data-position="bottom" data-delay="50" data-tooltip="Workshop Content" href="http://steamcommunity.com/sharedfiles/filedetails/?id=<?php echo $SteamWorkshopid; ?>" target="_blank"><i class="material-icons">library_add</i>Workshop Content</a>
                 <h5 class="valign bigEntrance">&nbsp;&nbsp;&nbsp;&nbsp;<i><div id="status" style="display: inline;">Retrieving Server Info...</div></i></h5>
               </div>
               <div class="right-align bigEntrance"><p><i><div id="fileDL" style="display: inline;">No Files Downloading</div></i> [<div id="percent" style="display: inline;">0</div>%]<br>
