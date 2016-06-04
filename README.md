@@ -19,12 +19,13 @@ Materialize themed PHP based loading screen for Garry's Mod with Steam Web API s
 * Place any Music files in `.ogg` format in the music folder or utilize the YouTube functionality in the config.php
 * Place any slideshow photos in `img/carousel`, they will automatically be loaded in
 * Follow the Instuctions found within the file `config.php` and edit the contents
-* Set the URL of the loading screen in your `server.cfg` like that `sv_loadingurl "http://example.com/gmod-loadingscreen-materialize/index.php?steamid=%s&mapname=%m"`
+* Set the URL of the loading screen in your `server.cfg` like that `sv_loadingurl "http://example.com/index.php?steamid=%s&mapname=%m"`
 
 ## Credits
 * Dogfalo (https://github.com/Dogfalo/materialize)
 * GabrielWanzek (https://github.com/GabrielWanzek/gmod-loadingscreen)
 * Marcuzz (https://github.com/Marcuzz/MetroLoad)
+* KiraEmma (http://kiraemma.deviantart.com/art/Blue-gradient-abstract-hd-wallpaper-1920x1200-2387-527817773)
 
 ## Documentation
 * Materialize CSS (http://materializecss.com)
