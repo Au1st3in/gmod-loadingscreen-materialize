@@ -8,8 +8,15 @@
 	*/
 
 	// GENERAL SETTINGS
-	$serverIP = $_SERVER["REMOTE_ADDR"];
-	$serverPort = "27015";
+	$serverIP = $_SERVER['REMOTE_ADDR'];
+	$serverPort = '27015';
+	$serverName = "Garry's Mod Server";
+	$serverWelcome = "Welcome back, ";
+	$serverRules = "<li>Don't mess with other Players. [<i>Ex. Killing or Deleting Props</i>]</li>
+	                <li>Don't Spam. [<i>Ex. Mic, Chat and Props</i>]</li>
+	                <li>Don't try to overflow the Server. [<i>Ex. Spawning too Many NPCs</i>]</li>
+	                <li>Don't use any Cheats/Exploits.</li>
+	                <li>Respect the Admins</li>";
 
 	$default_steam64 = '76561197960279927'; // Default Steam64 ID if you're viewing in browser
 	$default_map = 'gm_flatgrass'; // Default map if you're viewing in browser
