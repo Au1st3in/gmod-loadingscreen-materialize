@@ -68,7 +68,7 @@
   </head>
   <body background="<?php echo $bg_img; ?>">
     <div class="container <?php echo $materialize_text_color; ?>-text">
-      <div class="section"><br><br><br><br>
+      <div class="section hide-on-med-and-down"><br><br><br><br>
         <div class="row">
           <div class="col s6">
             <div class="card-panel hoverable <?php echo $materialize_card_color; ?> waves-effect waves-block waves-<?php echo $materialize_waves_color; ?> bigEntrance">
