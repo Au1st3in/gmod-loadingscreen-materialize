@@ -64,7 +64,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" href="css/animations.min.css">
-    <style>#toast-container{top:auto;right:auto;bottom:10%;left:10%}#confetti{position:absolute;left:0;top:0;height:100%;width:100%}</style>
+    <style>#toast-container{top:auto;right:auto;bottom:5%;left:10%}</style>
   </head>
   <body background="<?php echo $bg_img; ?>">
     <div class="container <?php echo $materialize_text_color; ?>-text">
