@@ -9,6 +9,14 @@
   } else {
     $userID = $_GET["steamid"];
   }
+  
+  if($serverIP == "0.0.0.0") {
+      if($apiResult = file_get_contents('https://api.ipify.org')) {
+          $serverIP = $apiResult;
+      } else {
+          $serverIP = $_SERVER['REMOTE_ADDR'];
+      }
+  }
 
   function convertCommunityIdToSteamId($communityId) {
     $steamId1  = substr($communityId, -1) % 2;
