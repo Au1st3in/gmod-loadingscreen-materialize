@@ -8,7 +8,7 @@
 	*/
 
 	// GENERAL SETTINGS
-	$serverIP = $_SERVER['REMOTE_ADDR'];
+	$serverIP = "0.0.0.0"; //Replace this if the page doesn't show the correct serverip.
 	$serverPort = '27015';
 	$serverName = "Garry's Mod Server";
 	$serverWelcome = "Welcome back, ";
